@@ -6,7 +6,16 @@ import HeaderLink from './HeaderLink.astro';
 <header>
 	<nav>
 		<h2><a href="/">{SITE_TITLE}</a></h2>
-		<div class="internal-links">
+		
+		<button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+				<line x1="3" y1="12" x2="21" y2="12"></line>
+				<line x1="3" y1="6" x2="21" y2="6"></line>
+				<line x1="3" y1="18" x2="21" y2="18"></line>
+			</svg>
+		</button>
+
+		<div class="internal-links" id="nav-links">
 			<HeaderLink href="/">Home</HeaderLink>
 			<HeaderLink href="/blog">Blog</HeaderLink>
 			<HeaderLink href="/about">About</HeaderLink>
@@ -24,8 +33,7 @@ import HeaderLink from './HeaderLink.astro';
 	h2 {
 		margin: 0;
 		font-size: 1em;
-		position: absolute;
-		left: 0;
+		z-index: 10;
 	}
 
 	h2 a,
@@ -35,7 +43,7 @@ import HeaderLink from './HeaderLink.astro';
 	nav {
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: space-between;
 		position: relative;
 	}
 	nav a {
@@ -49,4 +57,61 @@ import HeaderLink from './HeaderLink.astro';
 		border-bottom-color: var(--accent);
 	}
 
+	.menu-toggle {
+		display: flex;
+		background: transparent;
+		border: none;
+		padding: 1em 0.5em;
+		cursor: pointer;
+		z-index: 10;
+	}
+
+	.internal-links {
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: -1em;
+		right: -1em;
+		background: white;
+		flex-direction: column;
+		align-items: center;
+		box-shadow: 0 4px 6px rgba(var(--black), 5%);
+		z-index: 9;
+	}
+
+	.internal-links.show {
+		display: flex;
+	}
+
+	@media (min-width: 720px) {
+		h2 {
+			position: absolute;
+			left: 0;
+		}
+		nav {
+			justify-content: center;
+		}
+		.menu-toggle {
+			display: none;
+		}
+		.internal-links {
+			display: flex;
+			position: static;
+			flex-direction: row;
+			box-shadow: none;
+		}
+	}
 </style>
+
+<script>
+	const menuToggle = document.getElementById('menu-toggle');
+	const navLinks = document.getElementById('nav-links');
+
+	if (menuToggle && navLinks) {
+		menuToggle.addEventListener('click', () => {
+			navLinks.classList.toggle('show');
+			const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
+			menuToggle.setAttribute('aria-expanded', String(!isExpanded));
+		});
+	}
+</script>
