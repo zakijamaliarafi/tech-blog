@@ -1,7 +1,7 @@
 ---
 title: 'Getting Started with Vim Editor'
 description: 'A beginner-friendly introduction to the powerful Vim text editor.'
-pubDate: 'May 14 2026'
+pubDate: 'May 02 2026'
 ---
 
 Vim (Vi IMproved) is a highly configurable text editor built to enable efficient text editing. It is pre-installed on almost every Unix system in the world, making it a critical skill for any Linux administrator or developer. 

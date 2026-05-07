@@ -1,7 +1,7 @@
 ---
 title: 'Secure Shell (SSH) Best Practices'
 description: 'Secure your Linux servers with proper SSH configuration and key-based authentication.'
-pubDate: 'May 12 2026'
+pubDate: 'Apr 20 2026'
 ---
 
 Secure Shell (SSH) is the standard protocol for securely connecting to remote Linux servers over an unsecured network. While SSH encrypts traffic by default, relying solely on basic password authentication can leave your server vulnerable to brute-force attacks. 

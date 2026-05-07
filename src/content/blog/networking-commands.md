@@ -1,7 +1,7 @@
 ---
 title: 'Introduction to Linux Networking Commands'
 description: 'Master ip, ping, netstat, and other essential networking tools.'
-pubDate: 'May 13 2026'
+pubDate: 'Apr 24 2026'
 ---
 
 When configuring a server or troubleshooting connectivity issues, understanding Linux networking commands is essential. The older `net-tools` suite (like `ifconfig`) is largely deprecated in favor of the newer `iproute2` suite.

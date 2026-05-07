@@ -1,7 +1,7 @@
 ---
 title: 'Understanding Linux User Permissions'
 description: 'A comprehensive guide to file permissions, ownership, and the chmod command.'
-pubDate: 'May 08 2026'
+pubDate: 'Apr 26 2026'
 ---
 
 Linux is inherently a multi-user operating system. To ensure security and privacy, it employs a strict permissions system to control who can access and modify files and directories.

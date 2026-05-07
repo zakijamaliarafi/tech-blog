@@ -1,7 +1,7 @@
 ---
 title: 'Linux Process Management and Monitoring'
 description: 'Use top, ps, and kill to monitor and manage Linux processes.'
-pubDate: 'May 15 2026'
+pubDate: 'Apr 22 2026'
 ---
 
 When managing a Linux system, it is crucial to know how to monitor resource usage and control running programs. In Linux, a running instance of a program is called a process.

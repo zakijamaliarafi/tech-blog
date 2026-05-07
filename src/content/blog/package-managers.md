@@ -1,7 +1,7 @@
 ---
 title: 'Exploring Linux Package Managers'
 description: 'Understand apt, yum, pacman, and how software is installed on Linux.'
-pubDate: 'May 11 2026'
+pubDate: 'Apr 23 2026'
 ---
 
 Unlike Windows or macOS, where you often download installers from websites, Linux relies heavily on **Package Managers** to install, update, and remove software. These tools interact with centralized repositories to securely download pre-compiled software packages.

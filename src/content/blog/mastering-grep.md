@@ -1,7 +1,7 @@
 ---
 title: 'Mastering Grep: A Beginner''s Guide'
 description: 'Discover how to use grep to search text effectively in the Linux command line.'
-pubDate: 'May 07 2026'
+pubDate: 'Apr 25 2026'
 ---
 
 The `grep` command is one of the most powerful and frequently used tools in the Linux arsenal. Standing for "Global Regular Expression Print," its primary job is to search for specific text patterns within files or command output.

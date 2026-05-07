@@ -1,7 +1,7 @@
 ---
 title: 'A Guide to Systemd and Service Management'
 description: 'Learn how to manage system services using systemctl on modern Linux distributions.'
-pubDate: 'May 09 2026'
+pubDate: 'Apr 19 2026'
 ---
 
 Systemd has become the standard initialization system and service manager for most modern Linux distributions (like Ubuntu, Debian, CentOS, and Fedora). It is responsible for starting the system and managing processes after boot.

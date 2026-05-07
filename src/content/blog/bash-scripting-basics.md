@@ -1,7 +1,7 @@
 ---
 title: 'Bash Scripting Basics for Automation'
 description: 'Automate repetitive tasks with simple Bash scripts.'
-pubDate: 'May 10 2026'
+pubDate: 'May 04 2026'
 ---
 
 If you find yourself running the same sequence of Linux commands repeatedly, it is time to write a Bash script. Bash (Bourne Again Shell) is the default command-line interpreter for most Linux systems, and scripting allows you to automate complex tasks.

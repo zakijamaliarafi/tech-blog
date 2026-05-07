@@ -1,7 +1,7 @@
 ---
 title: 'Introduction to the Linux File System'
 description: 'Learn the basics of the Linux directory structure and where everything lives.'
-pubDate: 'May 06 2026'
+pubDate: 'Apr 30 2026'
 ---
 
 If you're new to Linux, the file system might seem a bit daunting compared to the familiar drive letters of Windows. However, the Linux file system is highly organized and follows a standard hierarchy that makes perfect sense once you understand it.
