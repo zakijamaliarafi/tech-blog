@@ -1,4 +1,5 @@
 ---
+heroImage: '/getting-started-vim.svg'
 title: 'Getting Started with Vim Editor'
 description: 'A beginner-friendly introduction to the powerful Vim text editor.'
 pubDate: 'May 02 2026'

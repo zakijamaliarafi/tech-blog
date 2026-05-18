@@ -1,4 +1,5 @@
 ---
+heroImage: '/ebpf-tracing-guide.svg'
 title: 'Superpowers for Linux: An Introduction to eBPF'
 description: 'Discover how eBPF is revolutionizing Linux observability, networking, and security by safely running sandboxed programs within the kernel.'
 pubDate: 'May 03 2026'

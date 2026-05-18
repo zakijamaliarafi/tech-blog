@@ -1,4 +1,5 @@
 ---
+heroImage: '/systemd-guide.svg'
 title: 'A Guide to Systemd and Service Management'
 description: 'Learn how to manage system services using systemctl on modern Linux distributions.'
 pubDate: 'Apr 19 2026'

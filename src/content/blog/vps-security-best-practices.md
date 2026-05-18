@@ -1,4 +1,5 @@
 ---
+heroImage: '/vps-security-best-practices.svg'
 title: 'Essential Security Best Practices for Your New VPS'
 description: 'Learn how to secure your Virtual Private Server against common threats and vulnerabilities.'
 pubDate: 'Apr 10 2026'

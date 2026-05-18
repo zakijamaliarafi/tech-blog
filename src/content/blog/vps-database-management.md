@@ -1,4 +1,5 @@
 ---
+heroImage: '/vps-database-management.svg'
 title: 'Installing and Securing Databases on Your VPS'
 description: 'How to set up, optimize, and secure MySQL and PostgreSQL databases on your virtual server.'
 pubDate: 'Apr 16 2026'

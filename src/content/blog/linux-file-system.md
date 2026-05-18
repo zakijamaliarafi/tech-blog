@@ -1,4 +1,5 @@
 ---
+heroImage: '/linux-file-system.svg'
 title: 'Introduction to the Linux File System'
 description: 'Learn the basics of the Linux directory structure and where everything lives.'
 pubDate: 'Apr 30 2026'

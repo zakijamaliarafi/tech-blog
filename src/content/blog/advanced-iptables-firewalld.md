@@ -1,4 +1,5 @@
 ---
+heroImage: '/advanced-iptables-firewalld.svg'
 title: 'Mastering Linux Firewalls: iptables, nftables, and firewalld'
 description: 'A comprehensive guide to Linux packet filtering, comparing legacy iptables with modern nftables, and managing rules via firewalld.'
 pubDate: 'May 06 2026'

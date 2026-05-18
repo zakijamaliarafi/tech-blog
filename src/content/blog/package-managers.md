@@ -1,4 +1,5 @@
 ---
+heroImage: '/package-managers.svg'
 title: 'Exploring Linux Package Managers'
 description: 'Understand apt, yum, pacman, and how software is installed on Linux.'
 pubDate: 'Apr 23 2026'

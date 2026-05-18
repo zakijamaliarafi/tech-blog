@@ -1,4 +1,5 @@
 ---
+heroImage: '/vps-operating-systems.svg'
 title: 'Choosing the Right Operating System for Your VPS'
 description: 'Explore the pros and cons of various Linux distributions and Windows Server for your VPS.'
 pubDate: 'Apr 12 2026'

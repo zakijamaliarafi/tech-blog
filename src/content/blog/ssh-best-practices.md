@@ -1,4 +1,5 @@
 ---
+heroImage: '/ssh-best-practices.svg'
 title: 'Secure Shell (SSH) Best Practices'
 description: 'Secure your Linux servers with proper SSH configuration and key-based authentication.'
 pubDate: 'Apr 20 2026'

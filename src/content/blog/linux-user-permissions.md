@@ -1,4 +1,5 @@
 ---
+heroImage: '/linux-user-permissions.svg'
 title: 'Understanding Linux User Permissions'
 description: 'A comprehensive guide to file permissions, ownership, and the chmod command.'
 pubDate: 'Apr 26 2026'

@@ -1,4 +1,5 @@
 ---
+heroImage: '/bash-scripting-basics.svg'
 title: 'Bash Scripting Basics for Automation'
 description: 'Automate repetitive tasks with simple Bash scripts.'
 pubDate: 'May 04 2026'

@@ -1,4 +1,5 @@
 ---
+heroImage: '/linux-memory-management.svg'
 title: 'Demystifying Linux Memory Management and Swap'
 description: 'Understand how the Linux kernel manages RAM, handles page caching, utilizes swap space, and resolves Out-Of-Memory (OOM) situations.'
 pubDate: 'Apr 29 2026'

@@ -1,4 +1,5 @@
 ---
+heroImage: '/mastering-grep.svg'
 title: 'Mastering Grep: A Beginner''s Guide'
 description: 'Discover how to use grep to search text effectively in the Linux command line.'
 pubDate: 'Apr 25 2026'

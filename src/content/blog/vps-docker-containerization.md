@@ -1,4 +1,5 @@
 ---
+heroImage: '/vps-docker-containerization.svg'
 title: 'Using Docker and Containerization on a VPS'
 description: 'Maximize your VPS efficiency by leveraging Docker containers for your applications.'
 pubDate: 'Apr 15 2026'

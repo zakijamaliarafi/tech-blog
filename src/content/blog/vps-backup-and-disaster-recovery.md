@@ -1,4 +1,5 @@
 ---
+heroImage: '/vps-backup-and-disaster-recovery.svg'
 title: 'VPS Backup Strategies and Disaster Recovery Planning'
 description: 'Ensure your data is safe with robust backup solutions and disaster recovery plans.'
 pubDate: 'Apr 17 2026'

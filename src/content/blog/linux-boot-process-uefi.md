@@ -1,4 +1,5 @@
 ---
+heroImage: '/linux-boot-process-uefi.svg'
 title: 'The Linux Boot Process Explained: From Power On to systemd'
 description: 'A step-by-step breakdown of how a Linux system boots, covering UEFI, the GRUB bootloader, the kernel, initramfs, and systemd.'
 pubDate: 'May 01 2026'

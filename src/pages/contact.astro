@@ -1,0 +1,61 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title="Contact Us - Ramiel Vectors Tech" description="Contact Ramiel Vectors Tech" />
+		<style>
+			main {
+				width: calc(100% - 2em);
+				max-width: 100%;
+				margin: 0;
+			}
+			.prose {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 1em 1em 3em 1em;
+				color: rgb(var(--gray-dark));
+			}
+			h1 {
+				color: rgb(var(--black));
+			}
+            .contact-info {
+                margin-top: 2em;
+                padding: 1.5em;
+                background-color: rgba(var(--gray-light), 0.5);
+                border-radius: 8px;
+            }
+            a {
+                color: var(--accent);
+                font-weight: bold;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<div class="prose">
+				<h1>Contact Us</h1>
+                <p>We love hearing from our readers! Whether you have a question about a recent article, want to suggest a topic, or have a business inquiry, feel free to reach out to us.</p>
+
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>You can contact us via email at:</p>
+                    <p>📧 <a href="mailto:ramielvectors@gmail.com">ramielvectors@gmail.com</a></p>
+                </div>
+
+                <p style="margin-top: 2em;">We aim to respond to all inquiries as soon as possible.</p>
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>

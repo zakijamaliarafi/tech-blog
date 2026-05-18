@@ -1,4 +1,5 @@
 ---
+heroImage: '/networking-commands.svg'
 title: 'Introduction to Linux Networking Commands'
 description: 'Master ip, ping, netstat, and other essential networking tools.'
 pubDate: 'Apr 24 2026'

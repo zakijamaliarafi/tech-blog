@@ -1,4 +1,5 @@
 ---
+heroImage: '/vps-monitoring-and-logging.svg'
 title: 'Monitoring Performance and Managing Logs on Your VPS'
 description: 'Tools and techniques for keeping an eye on your server health and troubleshooting issues.'
 pubDate: 'Apr 13 2026'

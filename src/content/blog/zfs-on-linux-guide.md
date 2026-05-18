@@ -1,4 +1,5 @@
 ---
+heroImage: '/zfs-on-linux-guide.svg'
 title: 'The Ultimate Guide to ZFS on Linux'
 description: 'Explore the advanced features of the ZFS file system, including copy-on-write, snapshots, data integrity checks, and RAID-Z.'
 pubDate: 'Apr 07 2026'

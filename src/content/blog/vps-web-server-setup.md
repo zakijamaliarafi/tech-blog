@@ -1,4 +1,5 @@
 ---
+heroImage: '/vps-web-server-setup.svg'
 title: 'Setting Up a Web Server on Your VPS: Nginx and Apache'
 description: 'A step-by-step guide to installing and configuring popular web servers on your VPS.'
 pubDate: 'Apr 08 2026'

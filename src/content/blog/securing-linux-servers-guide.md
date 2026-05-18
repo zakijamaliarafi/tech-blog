@@ -1,4 +1,5 @@
 ---
+heroImage: '/securing-linux-servers-guide.svg'
 title: 'Hardening Linux Servers: A Practical Security Checklist'
 description: 'Essential security practices to protect your Linux servers from brute-force attacks, privilege escalation, and unauthorized access.'
 pubDate: 'Apr 21 2026'

@@ -1,4 +1,5 @@
 ---
+heroImage: '/vps-vs-shared-vs-dedicated.svg'
 title: 'VPS vs. Shared vs. Dedicated Hosting: Making the Right Choice'
 description: 'Compare different hosting models to find the perfect fit for your application or website.'
 pubDate: 'Apr 09 2026'

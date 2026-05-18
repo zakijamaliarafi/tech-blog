@@ -1,4 +1,5 @@
 ---
+heroImage: '/linux-namespaces-deep-dive.svg'
 title: 'A Deep Dive into Linux Namespaces'
 description: 'Understand the core isolation technology behind containers. Explore PID, Mount, Network, and User namespaces with practical examples.'
 pubDate: 'Apr 28 2026'

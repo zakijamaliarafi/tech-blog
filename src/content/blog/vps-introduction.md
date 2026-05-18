@@ -1,4 +1,5 @@
 ---
+heroImage: '/vps-introduction.svg'
 title: 'What is a VPS? A Comprehensive Introduction'
 description: 'Understand the fundamentals of Virtual Private Servers, how they work, and why you might need one.'
 pubDate: 'Apr 14 2026'

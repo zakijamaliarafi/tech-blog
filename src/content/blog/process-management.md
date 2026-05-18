@@ -1,4 +1,5 @@
 ---
+heroImage: '/process-management.svg'
 title: 'Linux Process Management and Monitoring'
 description: 'Use top, ps, and kill to monitor and manage Linux processes.'
 pubDate: 'Apr 22 2026'

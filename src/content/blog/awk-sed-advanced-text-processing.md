@@ -1,4 +1,5 @@
 ---
+heroImage: '/awk-sed-advanced-text-processing.svg'
 title: 'Command Line Magic: Advanced Text Processing with awk and sed'
 description: 'Master the classic UNIX tools awk and sed to parse logs, transform data, and automate text editing directly from the terminal.'
 pubDate: 'May 05 2026'

@@ -1,4 +1,5 @@
 ---
+heroImage: '/vps-scaling-strategies.svg'
 title: 'Strategies for Scaling Your VPS Resources'
 description: 'When and how to scale your VPS vertically and horizontally to handle increased traffic.'
 pubDate: 'Apr 11 2026'

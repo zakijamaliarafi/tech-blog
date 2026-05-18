@@ -1,4 +1,5 @@
 ---
+heroImage: '/understanding-linux-cgroups.svg'
 title: 'Understanding Linux Control Groups (cgroups)'
 description: 'A comprehensive guide to resource management and isolation using Linux cgroups, covering cgroups v1 vs v2, implementation, and real-world usage.'
 pubDate: 'Apr 18 2026'

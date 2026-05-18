@@ -1,4 +1,5 @@
 ---
+heroImage: '/linux-performance-tuning.svg'
 title: 'Practical Linux Performance Tuning for Production Servers'
 description: 'Optimize your Linux servers by tuning the CPU frequency governor, tweaking sysctl networking parameters, and managing I/O schedulers.'
 pubDate: 'Apr 27 2026'
