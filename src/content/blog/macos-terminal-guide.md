@@ -24,7 +24,7 @@ Alternatively, you can open Finder, go to `Applications`, then open the `Utiliti
 
 When the Terminal opens, you will see a window with a plain background (usually white or black) and a line of text ending with a cursor. This is the command prompt. It typically displays your computer's name, your username, and the current directory you are in (represented by a `~` symbol, which stands for your Home directory), followed by a `%` or `$` sign.
 
- macOS recently transitioned to using **Zsh** (Z shell) as the default shell instead of **Bash**. A shell is simply the program that takes the commands you type and passes them to the operating system to execute. While they share many similarities, Zsh offers more features and customization options.
+macOS recently transitioned to using **Zsh** (Z shell) as the default shell instead of **Bash**. A shell is simply the program that takes the commands you type and passes them to the operating system to execute. While they share many similarities, Zsh offers more features and customization options.
 
 ## 2. Navigating the File System
 
