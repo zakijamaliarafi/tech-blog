@@ -7,7 +7,7 @@ import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, authorBio, transparencyNote } = Astro.props;
 ---
 
 <html lang="en">
@@ -54,6 +54,21 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			}
 			.last-updated-on {
 				font-style: italic;
+			}
+			.transparency-note {
+				background: rgba(var(--gray-light), 0.5);
+				padding: 1em;
+				border-radius: 8px;
+				margin-bottom: 1.5em;
+				font-size: 0.9em;
+				border-left: 4px solid var(--accent);
+			}
+			.author-bio {
+				background: rgba(var(--gray-light), 0.3);
+				padding: 1.5em;
+				border-radius: 8px;
+				margin-top: 2em;
+				border-top: 2px solid rgb(var(--gray-light));
 			}
 			@media (max-width: 720px) {
 				.hero-image img {
@@ -107,7 +122,17 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 					<script>
 						(adsbygoogle = window.adsbygoogle || []).push({});
 					</script>
+					{transparencyNote && (
+						<div class="transparency-note">
+							<strong>Transparency Note:</strong> {transparencyNote}
+						</div>
+					)}
 					<slot />
+					{authorBio && (
+						<div class="author-bio">
+							<strong>Author Bio:</strong> {authorBio}
+						</div>
+					)}
 				</div>
 			</article>
 		</main>
