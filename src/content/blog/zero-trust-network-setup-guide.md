@@ -7,12 +7,6 @@ authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Exp
 transparencyNote: "We purchased all software and hardware mentioned in this guide with our own funds. No affiliate links influence this review, and no vendor had editorial oversight over this content."
 ---
 
-# The Ultimate Guide to Setting Up a Zero-Trust Network for Remote Teams (Based on Our 6-Month Deployment)
-
-*Author Bio: Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Cybersecurity & Privacy. Holding CISSP and CISM certifications, Alex has architected secure remote infrastructures for Fortune 500 companies and regularly writes about modern security paradigms.*
-
-*Transparency Note: We purchased all software and hardware mentioned in this guide with our own funds. No affiliate links influence this review, and no vendor had editorial oversight over this content.*
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [What is a Zero-Trust Network?](#what-is-a-zero-trust-network)

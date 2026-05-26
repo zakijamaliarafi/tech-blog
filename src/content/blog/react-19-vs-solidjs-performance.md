@@ -7,12 +7,6 @@ authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Exp
 transparencyNote: "We developed these benchmarks using our own infrastructure and funds. No affiliate links influence this review, and neither Meta nor the SolidJS core team had editorial oversight over this content."
 ---
 
-# Building High-Performance UIs in 2026: A Deep Dive into React 19 vs. SolidJS
-
-*Author Bio: Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Web Development. Having architected front-end applications for major SaaS platforms, Alex specializes in web performance and next-generation frameworks.*
-
-*Transparency Note: We developed these benchmarks using our own infrastructure and funds. No affiliate links influence this review, and neither Meta nor the SolidJS core team had editorial oversight over this content.*
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [How We Tested This](#how-we-tested-this)

@@ -7,12 +7,6 @@ authorBio: "Alex Vance is a Senior Technology Journalist and Subject Matter Expe
 transparencyNote: "All hardware and servers tested in this guide were purchased with our own funds. No affiliate links influence this content, and no smart home manufacturers had editorial oversight over this guide."
 ---
 
-# Self-Hosting Your Smart Home in 2026: The Ultimate Home Assistant Setup Guide
-
-*Author Bio: Alex Vance is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Smart Home & IoT. Specializing in local-first architectures, Alex has deployed hundreds of automated environments ranging from small apartments to fully integrated smart estates.*
-
-*Transparency Note: All hardware and servers tested in this guide were purchased with our own funds. No affiliate links influence this content, and no smart home manufacturers had editorial oversight over this guide.*
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [How We Tested This](#how-we-tested-this)

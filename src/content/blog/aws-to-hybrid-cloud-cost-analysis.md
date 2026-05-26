@@ -7,12 +7,6 @@ authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Exp
 transparencyNote: "We funded this migration and subsequent hybrid cloud cost analysis using our own infrastructure budget. No affiliate links influence this review, and no cloud providers had editorial oversight over this content."
 ---
 
-# We Migrated from AWS to a Hybrid Cloud Architecture: Here is Our Real-World Cost Analysis
-
-*Author Bio: Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Cloud Computing & Infrastructure. Having architected large-scale migrations for enterprise SaaS platforms, Alex specializes in cloud economics and hybrid infrastructure.*
-
-*Transparency Note: We funded this migration and subsequent hybrid cloud cost analysis using our own infrastructure budget. No affiliate links influence this review, and no cloud providers had editorial oversight over this content.*
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [How We Tested This](#how-we-tested-this)

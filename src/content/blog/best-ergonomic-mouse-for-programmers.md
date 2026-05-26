@@ -7,12 +7,6 @@ authorBio: "Jordan Harris is a Senior Technology Journalist and Subject Matter E
 transparencyNote: "All mice tested in this review were purchased with our own funds. No affiliate links influence this review, and no peripheral manufacturers had editorial oversight over this content."
 ---
 
-# The Best Ergonomic Mice for Software Engineers in 2026 (Tested for 300+ Hours)
-
-*Author Bio: Jordan Harris is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Consumer Electronics & Productivity Gear. After a career in full-stack software development, Jordan transitioned to reviewing the intersection of developer productivity and hardware ergonomics.*
-
-*Transparency Note: All mice tested in this review were purchased with our own funds. No affiliate links influence this review, and no peripheral manufacturers had editorial oversight over this content.*
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [How I Tested This](#how-i-tested-this)
