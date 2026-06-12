@@ -2,6 +2,7 @@
 title: "Integrating ZKTeco Access Control Panels with a Cloud-Based Web Server (A 6-Month Case Study)"
 description: "A comprehensive case study on ZKTeco cloud integration using Python, covering architecture, real-world testing, code snippets, and performance analysis."
 pubDate: '2026-05-26'
+updatedDate: '2026-06-12'
 heroImage: '/zkteco.jpg'
 authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in IoT & Hardware Integration. Alex specializes in bridging the gap between legacy industrial hardware and modern cloud architectures."
 transparencyNote: "All hardware utilized in this case study was purchased with our own funds for R&D purposes. No affiliate links influence this guide, and ZKTeco had no editorial oversight."

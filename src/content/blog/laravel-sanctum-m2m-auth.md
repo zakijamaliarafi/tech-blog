@@ -2,6 +2,7 @@
 title: "Securing Machine-to-Machine (M2M) Communication: Implementing Token-Based Auth with Laravel Sanctum"
 description: "A comprehensive, production-grade guide to implementing secure machine-to-machine authentication with Laravel Sanctum, featuring Redis token caching, IP allowlisting, and automated testing."
 pubDate: '2026-05-26'
+updatedDate: '2026-06-12'
 heroImage: '/sanctum.jpg'
 authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in API Design & Microservices Security. Alex specializes in designing robust, scalable authentication architectures for distributed systems."
 transparencyNote: "The testing and benchmarking detailed in this guide were conducted on my own infrastructure. I have not received any compensation from Laravel or associated vendors, ensuring this review remains completely objective."

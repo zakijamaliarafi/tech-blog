@@ -2,6 +2,7 @@
 title: "Implementing Genetic Algorithms for Courier Route Optimization: Real-World Dataset Generation and Performance Benchmarks"
 description: "A comprehensive deep-dive into building, training, and benchmarking genetic algorithms against real-world courier route optimization datasets."
 pubDate: "May 26 2026"
+updatedDate: '2026-06-12'
 heroImage: "/Route-Optimization.jpg"
 authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with 10+ years of experience in Algorithm Design, Route Optimization, and Machine Learning. He has architected logistics engines for national delivery networks."
 transparencyNote: "All cloud compute instances, APIs, and datasets used in this benchmark were purchased or provisioned with our own funds. No affiliate links influence this technical review."

@@ -2,6 +2,7 @@
 title: "Implementing Event-Driven Architecture in 2026: A Hands-On Guide Using Laravel 13, Reverb, and Redis Queue"
 description: "A comprehensive deep dive into building scalable event-driven architecture with Laravel 13, Reverb, and Redis Queue, complete with benchmarks and real-world testing."
 pubDate: '2026-05-26'
+updatedDate: '2026-06-12'
 heroImage: '/reverb.png'
 authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Backend Web Development & Real-Time Architecture. Alex specializes in designing high-throughput distributed systems and evaluating cutting-edge frameworks for enterprise deployment."
 transparencyNote: "All hardware and cloud infrastructure used in this testing were funded independently. No affiliate links influence this guide, and neither Laravel nor Redis Labs had editorial oversight."

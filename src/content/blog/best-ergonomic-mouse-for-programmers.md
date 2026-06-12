@@ -2,6 +2,7 @@
 title: "The Best Ergonomic Mice for Software Engineers in 2026 (Tested for 300+ Hours)"
 description: "A deep dive into the best ergonomic mouse for programmers in 2026, tested over 300 hours with a focus on ergonomics, productivity, and developer experience."
 pubDate: '2026-05-26'
+updatedDate: '2026-06-12'
 heroImage: '/ergo-mouse.jpg'
 authorBio: "Jordan Harris is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Consumer Electronics & Productivity Gear. After a career in full-stack software development, Jordan transitioned to reviewing the intersection of developer productivity and hardware ergonomics."
 transparencyNote: "All mice tested in this review were purchased with our own funds. No affiliate links influence this review, and no peripheral manufacturers had editorial oversight over this content."

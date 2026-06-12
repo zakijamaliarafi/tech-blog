@@ -2,7 +2,7 @@
 title: "Bridging ZKTeco C3-100 Panels with a Cloud Server: A Developer's Guide to pyzkaccess, Port Forwarding, and Real-Time Sync"
 description: "An in-depth developer guide to connecting ZKTeco C3/InBio access control panels securely to a cloud web server using pyzkaccess, WireGuard, and an offline SQLite cache."
 pubDate: "May 26 2026"
-updatedDate: "June 12 2026"
+updatedDate: '2026-06-12'
 heroImage: "/zkteco.webp"
 authorBio: "Jane Doe is a Senior Technology Journalist and Systems Engineer with 10+ years of experience in IoT, enterprise access control, and distributed architectures."
 transparencyNote: "All hardware tested in this article, including the ZKTeco C3-100 panels, was purchased with our own funds. No affiliate links influence our technical review."

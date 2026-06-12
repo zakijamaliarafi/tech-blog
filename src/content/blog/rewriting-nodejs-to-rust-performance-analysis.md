@@ -2,6 +2,7 @@
 title: "Rewriting Our Node.js Microservice in Rust: A 6-Month Performance and Memory Analysis"
 description: "An authoritative performance and memory comparison of rewriting a high-throughput Node.js microservice in Rust, analyzing 6 months of staging and production data."
 pubDate: '2026-05-27'
+updatedDate: '2026-06-12'
 heroImage: '/rust_nodejs.jpeg'
 authorBio: "Alex Mercer is a Senior Systems Engineer with over 10 years of experience in Systems Programming & Performance, specializing in high-throughput distributed systems. Currently leading the backend infrastructure team at TechFlow Inc."
 transparencyNote: "The infrastructure and load-testing tools mentioned in this article were provisioned using our internal engineering budget. No sponsorships or affiliate links influence this review. Our findings are based purely on our internal production workloads."

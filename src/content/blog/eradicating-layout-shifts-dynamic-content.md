@@ -2,6 +2,7 @@
 title: "Eradicating Layout Shifts in Dynamically Loaded Content: A Real-World CLS Optimization Case Study"
 description: "An expert case study on how to optimize cumulative layout shift dynamic content for better Core Web Vitals and user experience."
 pubDate: '2026-05-26'
+updatedDate: '2026-06-12'
 heroImage: '/layout-shift.png'
 authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Frontend Performance & Core Web Vitals."
 transparencyNote: "The tools and strategies discussed were tested on our own internal infrastructure. No affiliate links or vendor sponsorships influence this technical guide."

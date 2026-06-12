@@ -2,6 +2,7 @@
 title: "Building a Zero-Latency Restaurant POS: An Event-Driven Architecture Case Study Using Laravel Reverb, Redis, and the TALL Stack"
 description: "A comprehensive case study on building an event-driven point-of-sale system with Laravel Reverb, Redis, and the TALL Stack for zero-latency restaurant operations."
 pubDate: '2026-05-26'
+updatedDate: '2026-06-12'
 heroImage: '/event-driven.jpg'
 authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Full-Stack PHP & Real-Time Architecture. Alex specializes in designing scalable, event-driven systems that power high-throughput applications."
 transparencyNote: "This case study is based on a real-world project funded independently. We utilized open-source tools, and no affiliate links influence this architectural review."

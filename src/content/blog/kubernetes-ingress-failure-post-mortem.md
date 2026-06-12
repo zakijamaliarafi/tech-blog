@@ -2,6 +2,7 @@
 title: "Surviving a Kubernetes Outage: How We Rebuilt Our Cluster Ingress During Peak Traffic"
 description: "A real-world Kubernetes ingress failure post mortem detailing the collapse of our NGINX Ingress Controller during Black Friday traffic and how we rebuilt it live."
 pubDate: '2026-05-28'
+updatedDate: '2026-06-12'
 heroImage: '/kubernetes.png'
 authorBio: "Alex Mercer is a Senior Platform Engineer with over 10 years of experience in distributed systems and Kubernetes infrastructure. Holding CKA, CKAD, and CKS certifications, Alex specializes in highly available cloud-native architectures and incident response."
 transparencyNote: "This article contains a real-world Kubernetes ingress failure post mortem based on a production incident. All tools discussed are open-source or were purchased with our own funds. No affiliate links influence the technical details or opinions expressed below."

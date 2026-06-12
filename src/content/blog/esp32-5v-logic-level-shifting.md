@@ -2,6 +2,7 @@
 title: "Bridging the Voltage Gap: Safe Logic Level Shifting Between 3.3V ESP32s and 5V Components"
 description: "An in-depth, production-grade guide on safe logic level shifting techniques for 3.3V ESP32s, covering electrical boundaries, circuit designs, mathematical limits, and active buffering."
 pubDate: '2026-05-26'
+updatedDate: '2026-06-12'
 heroImage: '/level-shifting.png'
 authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Hardware Engineering & Prototyping. Alex specializes in embedded systems, microcontroller integrations, and rapid hardware prototyping."
 transparencyNote: "All hardware components discussed in this guide were purchased with our own funds. No affiliate links influence this review, and we maintain full editorial independence."

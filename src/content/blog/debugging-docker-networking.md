@@ -2,6 +2,7 @@
 title: "Demystifying Docker Networking: How to Debug Container-to-Host Communication Failures"
 description: "A comprehensive guide on debugging Docker container-to-host network issues based on our extensive testing in real-world Linux environments."
 pubDate: '2026-05-26'
+updatedDate: '2026-06-12'
 heroImage: '/docker.png'
 authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Linux Systems Programming & Containerization. Currently a Principal Systems Engineer, Alex specializes in highly available container architectures and deep-level kernel debugging."
 transparencyNote: "We conducted these networking tests using our own bare-metal and cloud infrastructure. No affiliate links or sponsorships influence this guide, and Docker Inc. had no editorial oversight over this content."

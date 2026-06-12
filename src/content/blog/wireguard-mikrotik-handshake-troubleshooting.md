@@ -2,6 +2,7 @@
 title: "Troubleshooting WireGuard VPN Handshakes: Connecting Cloud Servers to MikroTik Routers"
 description: "A comprehensive guide on WireGuard MikroTik handshake troubleshooting, complete with real-world testing, performance benchmarks, and detailed solutions."
 pubDate: '2026-05-26'
+updatedDate: '2026-06-12'
 heroImage: '/wireguard.jpg'
 authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Server Administration & Networking. Alex specializes in designing secure, high-throughput network architectures and troubleshooting complex VPN deployments."
 transparencyNote: "All hardware and cloud infrastructure used in this testing were funded independently. No affiliate links influence this guide, and neither WireGuard nor MikroTik had editorial oversight."

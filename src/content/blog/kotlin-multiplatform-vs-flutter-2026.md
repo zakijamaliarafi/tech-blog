@@ -2,6 +2,7 @@
 title: "Kotlin Multiplatform vs. Flutter in 2026: Why We Chose Native UI Over a Unified Canvas"
 description: "An in-depth, hands-on architectural comparison of Kotlin Multiplatform vs Flutter in 2026. We share our raw performance benchmarks, real-world code implementations, and why we ultimately chose native UI."
 pubDate: '2026-05-31'
+updatedDate: '2026-06-12'
 heroImage: "/kotlin_flutter.png"
 authorBio: "Alex Morgan is a Senior Mobile Architect with over 10 years of experience building cross-platform and native applications. Currently leading mobile infrastructure at a Fortune 500 fintech company, Alex specializes in scaling high-performance mobile codebases."
 transparencyNote: "The research, devices, and cloud infrastructure used for this review were funded entirely by our own engineering budget. We hold no financial stakes in Google or JetBrains, and no affiliate links influence this review."

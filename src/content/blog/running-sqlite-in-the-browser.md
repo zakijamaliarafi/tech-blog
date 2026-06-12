@@ -2,6 +2,7 @@
 title: "Running SQLite in the Browser: A Deep Dive into WebAssembly and the File System Access API"
 description: "An in-depth exploration of running SQLite in the browser using WebAssembly and the File System Access API for persistent, high-performance web storage."
 pubDate: "2026-05-30"
+updatedDate: '2026-06-12'
 heroImage: "/webassembly.png"
 authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert in Edge Computing. With over 10 years of experience designing distributed systems and pushing the boundaries of web technologies, Alex currently works as a Principal Edge Architect. He specializes in Wasm, local-first architectures, and modern web performance optimization."
 transparencyNote: "This research and implementation were conducted independently. We purchased all hardware used for testing with our own funds, and no affiliate links or sponsorships influence this technical review."
