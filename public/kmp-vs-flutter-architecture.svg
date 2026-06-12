@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" width="100%" height="100%">
+  <rect width="100%" height="100%" fill="#0b0f19" rx="12"/>
+  <defs>
+    <!-- Arrow marker definitions -->
+    <marker id="arrowhead-flutter" markerWidth="10" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#02569B" />
+    </marker>
+    <marker id="arrowhead-kmp" markerWidth="10" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7f52ff" />
+    </marker>
+    <!-- Glow Gradients -->
+    <linearGradient id="flutter-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#02569B" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#00579b" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="kmp-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7f52ff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ea7e1a" stop-opacity="0.03"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-weight: 700; fill: #f8fafc; font-size: 18px; letter-spacing: -0.025em; }
+    .subtitle { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-weight: 400; fill: #64748b; font-size: 12px; }
+    .header-flutter { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-weight: 700; fill: #00b0ff; font-size: 13px; text-anchor: middle; letter-spacing: 0.05em; }
+    .header-kmp { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-weight: 700; fill: #a970ff; font-size: 13px; text-anchor: middle; letter-spacing: 0.05em; }
+    .box-flutter { fill: url(#flutter-glow); stroke: #02569B; stroke-width: 1.5; rx: 8px; }
+    .box-kmp { fill: url(#kmp-glow); stroke: #7f52ff; stroke-width: 1.5; rx: 8px; }
+    .text-main { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-weight: 600; fill: #f1f5f9; font-size: 12px; }
+    .text-sub { font-family: 'Inter', system-ui, -apple-system, sans-serif; fill: #94a3b8; font-size: 10px; }
+    .arrow-flutter { fill: none; stroke: #02569B; stroke-width: 1.5; marker-end: url(#arrowhead-flutter); opacity: 0.8; }
+    .arrow-kmp { fill: none; stroke: #7f52ff; stroke-width: 1.5; marker-end: url(#arrowhead-kmp); opacity: 0.8; }
+  </style>
+
+  <!-- Title & Subtitle -->
+  <text x="30" y="40" class="title">Flutter vs. Kotlin Multiplatform: Compile &amp; Render Pipeline</text>
+  <text x="30" y="60" class="subtitle">Comparison of Unified Canvas compilation vs. Shared Business Logic and Native OS View rendering</text>
+
+  <!-- COLUMN 1: FLUTTER -->
+  <g transform="translate(0, 30)">
+    <text x="220" y="80" class="header-flutter">FLUTTER (UNIFIED CANVAS PIPELINE)</text>
+    
+    <!-- Step 1: Dart Source -->
+    <rect x="100" y="100" width="240" height="55" class="box-flutter" />
+    <text x="120" y="123" class="text-main">1. Dart UI &amp; Logic Code</text>
+    <text x="120" y="138" class="text-sub">Shared codebase includes both UI and Logic</text>
+
+    <!-- Arrow 1 -> 2 -->
+    <path d="M 220 155 L 220 185" class="arrow-flutter" />
+
+    <!-- Step 2: AOT Compiler -->
+    <rect x="100" y="185" width="240" height="55" class="box-flutter" />
+    <text x="120" y="208" class="text-main">2. Dart AOT Compiler</text>
+    <text x="120" y="223" class="text-sub">Compiles Dart to machine code and pre-warms shaders</text>
+
+    <!-- Arrow 2 -> 3 -->
+    <path d="M 220 240 L 220 270" class="arrow-flutter" />
+
+    <!-- Step 3: Native Executable -->
+    <rect x="100" y="270" width="240" height="55" class="box-flutter" />
+    <text x="120" y="293" class="text-main">3. Machine Code (ARM64/x64)</text>
+    <text x="120" y="308" class="text-sub">Embedded inside custom native wrapper binary</text>
+
+    <!-- Arrow 3 -> 4 -->
+    <path d="M 220 325 L 220 355" class="arrow-flutter" />
+
+    <!-- Step 4: Rendering Engine -->
+    <rect x="100" y="355" width="240" height="55" class="box-flutter" />
+    <text x="120" y="378" class="text-main">4. Impeller GPU Engine</text>
+    <text x="120" y="393" class="text-sub">Bypasses platform widgets; draws to Metal/Vulkan</text>
+
+    <!-- Arrow 4 -> 5 -->
+    <path d="M 220 410 L 220 440" class="arrow-flutter" />
+
+    <!-- Step 5: Screen Render -->
+    <rect x="100" y="440" width="240" height="55" class="box-flutter" />
+    <text x="120" y="463" class="text-main">5. Unified Custom Canvas</text>
+    <text x="120" y="478" class="text-sub">Identical pixel layout across Android, iOS &amp; Web</text>
+  </g>
+
+  <!-- COLUMN 2: KOTLIN MULTIPLATFORM -->
+  <g transform="translate(0, 30)">
+    <text x="580" y="80" class="header-kmp">KOTLIN MULTIPLATFORM (NATIVE PIPELINE)</text>
+    
+    <!-- Step 1: Kotlin Shared Source -->
+    <rect x="460" y="100" width="240" height="55" class="box-kmp" />
+    <text x="480" y="123" class="text-main">1. Kotlin Shared Logic Code</text>
+    <text x="480" y="138" class="text-sub">Core networking, cache database &amp; ViewModels</text>
+
+    <!-- Arrow 1 -> 2 -->
+    <path d="M 580 155 L 580 185" class="arrow-kmp" />
+
+    <!-- Step 2: LLVM Compiler -->
+    <rect x="460" y="185" width="240" height="55" class="box-kmp" />
+    <text x="480" y="208" class="text-main">2. Kotlin/Native (LLVM Backend)</text>
+    <text x="480" y="223" class="text-sub">Compiles to specific iOS/Android target structures</text>
+
+    <!-- Arrow 2 -> 3 -->
+    <path d="M 580 240 L 580 270" class="arrow-kmp" />
+
+    <!-- Step 3: Framework / AAR -->
+    <rect x="460" y="270" width="240" height="55" class="box-kmp" />
+    <text x="480" y="293" class="text-main">3. Library (.framework / .aar)</text>
+    <text x="480" y="308" class="text-sub">Imported natively like an OS-native package</text>
+
+    <!-- Arrow 3 -> 4 -->
+    <path d="M 580 325 L 580 355" class="arrow-kmp" />
+
+    <!-- Step 4: SwiftUI / Compose UI -->
+    <rect x="460" y="355" width="240" height="55" class="box-kmp" />
+    <text x="480" y="378" class="text-main">4. Native UI Layout Engine</text>
+    <text x="480" y="393" class="text-sub">SwiftUI views on iOS, Compose views on Android</text>
+
+    <!-- Arrow 4 -> 5 -->
+    <path d="M 580 410 L 580 440" class="arrow-kmp" />
+
+    <!-- Step 5: Screen Render -->
+    <rect x="460" y="440" width="240" height="55" class="box-kmp" />
+    <text x="480" y="463" class="text-main">5. Platform-Native OS Views</text>
+    <text x="480" y="478" class="text-sub">Accesses system accessibility, physics &amp; styling</text>
+  </g>
+</svg>

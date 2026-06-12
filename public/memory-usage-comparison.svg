@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%">
+  <!-- Definitions for gradients and grid patterns -->
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="node-area" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.0" />
+    </linearGradient>
+    <linearGradient id="rust-area" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0.0" />
+    </linearGradient>
+    <filter id="glow-green" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-orange" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title { font-family: 'Inter', system-ui, sans-serif; font-weight: 800; font-size: 22px; fill: #f8fafc; }
+    .subtitle { font-family: 'Inter', system-ui, sans-serif; font-size: 13px; fill: #94a3b8; }
+    .axis-label { font-family: 'Inter', system-ui, sans-serif; font-size: 11px; fill: #64748b; font-weight: 600; }
+    .legend-text { font-family: 'Inter', system-ui, sans-serif; font-size: 12px; fill: #e2e8f0; font-weight: 600; }
+    .annotation { font-family: 'Inter', system-ui, sans-serif; font-size: 11px; fill: #94a3b8; }
+    .accent-green { fill: #10b981; }
+    .accent-orange { fill: #f97316; }
+  </style>
+
+  <!-- Background -->
+  <rect width="800" height="400" rx="12" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Title -->
+  <text x="30" y="45" class="title">Memory Usage Profile Under Load</text>
+  <text x="30" y="65" class="subtitle">Sustained 10,000 RPS Ingest Rate Comparison (6-Month Production Study)</text>
+
+  <!-- Grid Lines (Horizontal) -->
+  <line x1="80" y1="110" x2="750" y2="110" stroke="#1e293b" stroke-width="1" />
+  <text x="70" y="114" class="axis-label" text-anchor="end">800 MB</text>
+
+  <line x1="80" y1="165" x2="750" y2="165" stroke="#1e293b" stroke-width="1" />
+  <text x="70" y="169" class="axis-label" text-anchor="end">600 MB</text>
+
+  <line x1="80" y1="220" x2="750" y2="220" stroke="#1e293b" stroke-width="1" stroke-dasharray="2 2" />
+  <text x="70" y="224" class="axis-label" text-anchor="end">400 MB</text>
+
+  <line x1="80" y1="275" x2="750" y2="275" stroke="#1e293b" stroke-width="1" stroke-dasharray="2 2" />
+  <text x="70" y="279" class="axis-label" text-anchor="end">200 MB</text>
+
+  <line x1="80" y1="330" x2="750" y2="330" stroke="#475569" stroke-width="1.5" />
+  <text x="70" y="334" class="axis-label" text-anchor="end">0 MB</text>
+
+  <!-- Axis (Vertical) & Ticks -->
+  <line x1="80" y1="100" x2="80" y2="330" stroke="#475569" stroke-width="1.5" />
+  
+  <text x="80" y="355" class="axis-label" text-anchor="middle">0s</text>
+  <text x="247" y="355" class="axis-label" text-anchor="middle">10s</text>
+  <text x="415" y="355" class="axis-label" text-anchor="middle">20s</text>
+  <text x="582" y="355" class="axis-label" text-anchor="middle">30s</text>
+  <text x="750" y="355" class="axis-label" text-anchor="middle">40s</text>
+
+  <!-- Node.js Area and Path (Sawtooth) -->
+  <path d="M 80,330 L 210,110 L 210,275 L 340,110 L 340,275 L 470,110 L 470,275 L 600,110 L 600,275 L 730,110 L 730,275 Z" fill="url(#node-area)" />
+  <path d="M 80,330 L 210,110 L 210,275 L 340,110 L 340,275 L 470,110 L 470,275 L 600,110 L 600,275 L 730,110 L 730,275" fill="none" stroke="#10b981" stroke-width="3" filter="url(#glow-green)" />
+
+  <!-- Rust Area and Path (Flat line) -->
+  <path d="M 80,318 L 750,318 L 750,330 L 80,330 Z" fill="url(#rust-area)" />
+  <line x1="80" y1="318" x2="750" y2="318" stroke="#f97316" stroke-width="3" filter="url(#glow-orange)" />
+
+  <!-- Legends -->
+  <rect x="520" y="25" width="15" height="15" rx="3" fill="#10b981" />
+  <text x="542" y="37" class="legend-text">Node.js (V8 GC Sawtooth)</text>
+
+  <rect x="520" y="50" width="15" height="15" rx="3" fill="#f97316" />
+  <text x="542" y="62" class="legend-text">Rust (Deterministic RAII)</text>
+
+  <!-- Annotations -->
+  <!-- GC Trigger point -->
+  <circle cx="210" cy="110" r="5" fill="#ef4444" stroke="#ffffff" stroke-width="1.5" />
+  <line x1="210" y1="110" x2="250" y2="120" stroke="#f8fafc" stroke-width="1" stroke-dasharray="2 1" />
+  <rect x="252" y="112" width="110" height="24" rx="4" fill="#7f1d1d" stroke="#ef4444" stroke-width="0.75" />
+  <text x="307" y="128" font-family="'Inter', system-ui, sans-serif" font-weight="bold" font-size="9" fill="#fecaca" text-anchor="middle">GC Old Gen Pause</text>
+
+  <!-- Rust flat point -->
+  <circle cx="400" cy="318" r="5" fill="#f97316" stroke="#ffffff" stroke-width="1.5" />
+  <line x1="400" y1="318" x2="400" y2="220" stroke="#f8fafc" stroke-width="1" stroke-dasharray="2 1" />
+  <rect x="330" y="190" width="140" height="26" rx="4" fill="#0c4a6e" stroke="#0284c7" stroke-width="0.75" />
+  <text x="400" y="206" font-family="'Inter', system-ui, sans-serif" font-weight="bold" font-size="9" fill="#bae6fd" text-anchor="middle">Flat Memory ~42 MB</text>
+</svg>

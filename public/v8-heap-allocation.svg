@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%">
+  <!-- Definitions for gradients and shadows -->
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="new-space-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.1" />
+    </linearGradient>
+    <linearGradient id="old-space-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#4f46e5" stop-opacity="0.1" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-red" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feColorMatrix type="matrix" values="1 0 0 0 0.9  0 1 0 0 0.2  0 0 1 0 0.2  0 0 0 1 0"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title { font-family: 'Inter', system-ui, sans-serif; font-weight: 800; font-size: 22px; fill: #f8fafc; }
+    .subtitle { font-family: 'Inter', system-ui, sans-serif; font-size: 13px; fill: #94a3b8; }
+    .label { font-family: 'Inter', system-ui, sans-serif; font-weight: 600; font-size: 14px; fill: #e2e8f0; }
+    .desc { font-family: 'Inter', system-ui, sans-serif; font-size: 11px; fill: #64748b; }
+    .accent-green { fill: #10b981; }
+    .accent-blue { fill: #6366f1; }
+    .accent-red { fill: #ef4444; }
+  </style>
+
+  <!-- Background -->
+  <rect width="800" height="400" rx="12" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Title -->
+  <text x="30" y="45" class="title">V8 Engine Heap Allocation Model</text>
+  <text x="30" y="65" class="subtitle">Node.js Generational Garbage Collection Architecture</text>
+
+  <!-- New Space Container -->
+  <rect x="30" y="100" width="320" height="200" rx="8" fill="url(#new-space-grad)" stroke="#10b981" stroke-width="1.5" stroke-dasharray="4 4" />
+  <text x="45" y="125" class="label accent-green">New Space (Young Generation)</text>
+  <text x="45" y="142" class="desc">Where new objects are created. Managed by the Scavenge algorithm.</text>
+
+  <!-- To Space -->
+  <rect x="45" y="165" width="130" height="110" rx="6" fill="#022c22" stroke="#10b981" stroke-width="1.5" />
+  <text x="55" y="190" class="label" fill="#a7f3d0">To Space</text>
+  <text x="55" y="210" class="desc" fill="#34d399">Active allocations</text>
+  <rect x="55" y="225" width="40" height="15" rx="3" fill="#10b981" fill-opacity="0.3"/>
+  <rect x="100" y="225" width="60" height="15" rx="3" fill="#10b981" fill-opacity="0.3"/>
+  <rect x="55" y="248" width="80" height="15" rx="3" fill="#10b981" fill-opacity="0.3"/>
+
+  <!-- From Space -->
+  <rect x="205" y="165" width="130" height="110" rx="6" fill="#061c17" stroke="#065f46" stroke-width="1.5" />
+  <text x="215" y="190" class="label" fill="#64748b">From Space</text>
+  <text x="215" y="210" class="desc" fill="#4b5563">Inactive (for copying)</text>
+  <rect x="215" y="225" width="50" height="15" rx="3" fill="#64748b" fill-opacity="0.1"/>
+  <rect x="215" y="248" width="65" height="15" rx="3" fill="#64748b" fill-opacity="0.1"/>
+
+  <!-- Promotion Arrow -->
+  <path d="M 350 200 L 440 200" fill="none" stroke="#6366f1" stroke-width="3" stroke-dasharray="5 3" marker-end="url(#arrow)" />
+  <text x="360" y="185" class="label accent-blue" font-size="12">Surviving Objects</text>
+  <text x="375" y="220" class="label accent-blue" font-size="12">Promoted</text>
+
+  <!-- Old Space Container -->
+  <rect x="450" y="100" width="320" height="200" rx="8" fill="url(#old-space-grad)" stroke="#6366f1" stroke-width="1.5" />
+  <text x="465" y="125" class="label accent-blue">Old Space (Old Generation)</text>
+  <text x="465" y="142" class="desc">Long-lived objects. Managed by Mark-Sweep-Compact.</text>
+
+  <!-- Old Space Blocks -->
+  <rect x="465" y="165" width="290" height="110" rx="6" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.5"/>
+  <!-- Compacted Allocations -->
+  <rect x="480" y="180" width="60" height="30" rx="4" fill="#6366f1" fill-opacity="0.4"/>
+  <rect x="545" y="180" width="80" height="30" rx="4" fill="#6366f1" fill-opacity="0.4"/>
+  <rect x="630" y="180" width="45" height="30" rx="4" fill="#6366f1" fill-opacity="0.4"/>
+  <rect x="480" y="220" width="110" height="30" rx="4" fill="#6366f1" fill-opacity="0.4"/>
+  <!-- Uncompacted fragments -->
+  <rect x="600" y="220" width="30" height="30" rx="4" fill="#ef4444" fill-opacity="0.2" stroke="#ef4444" stroke-width="1"/>
+  <text x="608" y="240" font-family="sans-serif" font-size="10" fill="#ef4444">X</text>
+  <rect x="685" y="180" width="55" height="30" rx="4" fill="#6366f1" fill-opacity="0.4"/>
+  <rect x="640" y="220" width="70" height="30" rx="4" fill="#6366f1" fill-opacity="0.4"/>
+
+  <!-- GC Stop-The-World Indicator -->
+  <g filter="url(#glow-red)" transform="translate(260, 315)">
+    <rect width="280" height="40" rx="6" fill="#7f1d1d" stroke="#ef4444" stroke-width="1.5" />
+    <text x="140" y="25" font-family="'Inter', system-ui, sans-serif" font-weight="bold" font-size="13" fill="#fecaca" text-anchor="middle">⚠️ GC CYCLE: STOP-THE-WORLD PAUSE</text>
+  </g>
+
+  <!-- Arrow Marker Definitions -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6366f1" />
+    </marker>
+  </defs>
+</svg>

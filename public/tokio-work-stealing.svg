@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%">
+  <!-- Definitions for gradients, shadows, and markers -->
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="tokio-orange-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#ea580c" stop-opacity="0.1" />
+    </linearGradient>
+    <linearGradient id="task-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdba74" />
+      <stop offset="100%" stop-color="#f97316" />
+    </linearGradient>
+    <filter id="glow-orange" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <marker id="steal-arrow-marker" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#38bdf8" />
+    </marker>
+    <marker id="inbound-arrow-marker" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#94a3b8" />
+    </marker>
+  </defs>
+
+  <style>
+    .title { font-family: 'Inter', system-ui, sans-serif; font-weight: 800; font-size: 22px; fill: #f8fafc; }
+    .subtitle { font-family: 'Inter', system-ui, sans-serif; font-size: 13px; fill: #94a3b8; }
+    .label { font-family: 'Inter', system-ui, sans-serif; font-weight: 600; font-size: 14px; fill: #e2e8f0; }
+    .task-label { font-family: 'Inter', system-ui, sans-serif; font-weight: 700; font-size: 11px; fill: #0f172a; }
+    .desc { font-family: 'Inter', system-ui, sans-serif; font-size: 11px; fill: #64748b; }
+    .accent-orange { fill: #f97316; }
+    .accent-cyan { fill: #38bdf8; }
+  </style>
+
+  <!-- Background -->
+  <rect width="800" height="400" rx="12" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Title -->
+  <text x="30" y="45" class="title">Tokio Work-Stealing Scheduler</text>
+  <text x="30" y="65" class="subtitle">Rust Multi-Threaded Asynchronous Task Distribution Model</text>
+
+  <!-- Incoming Requests Block -->
+  <rect x="280" y="90" width="240" height="50" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1.5" />
+  <text x="400" y="120" font-family="'Inter', system-ui, sans-serif" font-weight="bold" font-size="14" fill="#f1f5f9" text-anchor="middle">Inbound HTTP Connections</text>
+
+  <!-- Downward Arrows to Workers -->
+  <path d="M 350 140 L 230 190" fill="none" stroke="#94a3b8" stroke-width="2" marker-end="url(#inbound-arrow-marker)" />
+  <path d="M 450 140 L 570 190" fill="none" stroke="#94a3b8" stroke-width="2" marker-end="url(#inbound-arrow-marker)" />
+
+  <!-- Worker Thread 1 Container -->
+  <rect x="60" y="200" width="300" height="170" rx="8" fill="url(#tokio-orange-grad)" stroke="#f97316" stroke-width="1.5" />
+  <text x="80" y="225" class="label accent-orange">Tokio Worker Thread #1</text>
+  <text x="80" y="242" class="desc">Active processing. Local queue has multiple tasks.</text>
+
+  <!-- Worker 1 Local Queue -->
+  <rect x="80" y="260" width="260" height="90" rx="6" fill="#1c1917" stroke="#78716c" stroke-width="1" />
+  <text x="95" y="280" font-family="sans-serif" font-size="11" fill="#78716c" font-weight="bold">LOCAL RUN QUEUE</text>
+  <!-- Task queue items -->
+  <rect x="95" y="295" width="45" height="40" rx="4" fill="url(#task-grad)" />
+  <text x="117" y="319" class="task-label" text-anchor="middle">Task 4</text>
+  <rect x="150" y="295" width="45" height="40" rx="4" fill="url(#task-grad)" />
+  <text x="172" y="319" class="task-label" text-anchor="middle">Task 3</text>
+  <rect x="205" y="295" width="45" height="40" rx="4" fill="url(#task-grad)" />
+  <text x="227" y="319" class="task-label" text-anchor="middle">Task 2</text>
+  <rect x="260" y="295" width="45" height="40" rx="4" fill="url(#task-grad)" />
+  <text x="282" y="319" class="task-label" text-anchor="middle">Task 1</text>
+
+  <!-- Worker Thread 2 Container -->
+  <rect x="440" y="200" width="300" height="170" rx="8" fill="url(#tokio-orange-grad)" stroke="#ea580c" stroke-width="1.5" />
+  <text x="460" y="225" class="label accent-orange">Tokio Worker Thread #2</text>
+  <text x="460" y="242" class="desc">Finished all jobs. Local queue is empty.</text>
+
+  <!-- Worker 2 Local Queue -->
+  <rect x="460" y="260" width="260" height="90" rx="6" fill="#1c1917" stroke="#78716c" stroke-width="1" />
+  <text x="475" y="280" font-family="sans-serif" font-size="11" fill="#78716c" font-weight="bold">LOCAL RUN QUEUE</text>
+  <text x="590" y="315" font-family="'Inter', system-ui, sans-serif" font-style="italic" font-size="13" fill="#ef4444" text-anchor="middle">Empty - Thread Idle</text>
+
+  <!-- Work Stealing Action (Stealing Task 4) -->
+  <g filter="url(#glow-orange)">
+    <!-- Steal Path -->
+    <path d="M 470 305 Q 390 270 150 300" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-dasharray="4 2" marker-end="url(#steal-arrow-marker)" />
+    <!-- Text tag -->
+    <rect x="330" y="248" width="130" height="20" rx="4" fill="#0c4a6e" stroke="#0284c7" stroke-width="1" />
+    <text x="395" y="262" font-family="'Inter', system-ui, sans-serif" font-weight="bold" font-size="10" fill="#bae6fd" text-anchor="middle">STEALS TASK 4</text>
+  </g>
+</svg>

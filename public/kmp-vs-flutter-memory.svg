@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%">
+  <!-- Definitions for gradients and glows -->
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="flutter-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#02569B" />
+      <stop offset="100%" stop-color="#00b0ff" />
+    </linearGradient>
+    <linearGradient id="kmp-android-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7f52ff" />
+      <stop offset="100%" stop-color="#a970ff" />
+    </linearGradient>
+    <linearGradient id="kmp-ios-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ea7e1a" />
+      <stop offset="100%" stop-color="#ff9d42" />
+    </linearGradient>
+    
+    <filter id="glow-flutter" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-kmp-android" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-kmp-ios" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-weight: 800; font-size: 20px; fill: #f8fafc; }
+    .subtitle { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-size: 12px; fill: #94a3b8; }
+    .axis-label { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-size: 11px; fill: #64748b; font-weight: 600; }
+    .bar-text { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-size: 12px; fill: #e2e8f0; font-weight: 700; }
+    .value-text { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-size: 12px; fill: #f8fafc; font-weight: 800; }
+    .grid-line { stroke: #1e293b; stroke-width: 1; }
+  </style>
+
+  <!-- Background -->
+  <rect width="800" height="400" rx="12" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Title & Subtitle -->
+  <text x="30" y="45" class="title">Active WebSocket Memory Consumption</text>
+  <text x="30" y="65" class="subtitle">Heap memory footprint at peak load (50 WebSocket ticks / second)</text>
+
+  <!-- Grid Lines (Vertical) -->
+  <line x1="220" y1="90" x2="220" y2="320" class="grid-line" />
+  <text x="220" y="340" class="axis-label" text-anchor="middle">0 MB</text>
+
+  <line x1="380" y1="90" x2="380" y2="320" class="grid-line" stroke-dasharray="4 2" />
+  <text x="380" y="340" class="axis-label" text-anchor="middle">100 MB</text>
+
+  <line x1="540" y1="90" x2="540" y2="320" class="grid-line" stroke-dasharray="4 2" />
+  <text x="540" y="340" class="axis-label" text-anchor="middle">200 MB</text>
+
+  <line x1="700" y1="90" x2="700" y2="320" class="grid-line" stroke-dasharray="4 2" />
+  <text x="700" y="340" class="axis-label" text-anchor="middle">300 MB</text>
+
+  <!-- Bar 1: Flutter -->
+  <text x="30" y="130" class="bar-text">Flutter 4.2 (Impeller)</text>
+  <rect x="220" y="112" width="448" height="30" rx="6" fill="url(#flutter-bar)" filter="url(#glow-flutter)" />
+  <text x="678" y="132" class="value-text">280 MB</text>
+
+  <!-- Bar 2: KMP Android -->
+  <text x="30" y="200" class="bar-text">KMP 2.2 (Compose/Android)</text>
+  <rect x="220" y="182" width="256" height="30" rx="6" fill="url(#kmp-android-bar)" filter="url(#glow-kmp-android)" />
+  <text x="486" y="202" class="value-text">160 MB</text>
+
+  <!-- Bar 3: KMP iOS -->
+  <text x="30" y="270" class="bar-text">KMP 2.2 (SwiftUI/iOS)</text>
+  <rect x="220" y="252" width="184" height="30" rx="6" fill="url(#kmp-ios-bar)" filter="url(#glow-kmp-ios)" />
+  <text x="414" y="272" class="value-text">115 MB</text>
+
+  <!-- Legend / Highlight Box -->
+  <rect x="220" y="360" width="480" height="2" fill="#334155" />
+</svg>

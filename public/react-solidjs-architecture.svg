@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%">
+  <rect width="100%" height="100%" fill="#0b0f19" rx="12"/>
+  <defs>
+    <!-- Arrow marker definitions -->
+    <marker id="arrowhead-react" markerWidth="10" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00d8ff" />
+    </marker>
+    <marker id="arrowhead-solid" markerWidth="10" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#76b3e2" />
+    </marker>
+    <!-- Glow Gradients -->
+    <linearGradient id="react-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d8ff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#00d8ff" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="solid-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#76b3e2" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#2c4f7c" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-weight: 700; fill: #f8fafc; font-size: 18px; letter-spacing: -0.025em; }
+    .subtitle { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-weight: 400; fill: #64748b; font-size: 12px; }
+    .header-react { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-weight: 700; fill: #00d8ff; font-size: 14px; text-anchor: middle; letter-spacing: 0.05em; }
+    .header-solid { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-weight: 700; fill: #76b3e2; font-size: 14px; text-anchor: middle; letter-spacing: 0.05em; }
+    .box-react { fill: url(#react-glow); stroke: #00d8ff; stroke-width: 1.5; rx: 8px; }
+    .box-solid { fill: url(#solid-glow); stroke: #76b3e2; stroke-width: 1.5; rx: 8px; }
+    .text-main { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-weight: 600; fill: #f1f5f9; font-size: 12px; }
+    .text-sub { font-family: 'Inter', system-ui, -apple-system, sans-serif; fill: #94a3b8; font-size: 10px; }
+    .arrow-react { fill: none; stroke: #00d8ff; stroke-width: 1.5; stroke-dasharray: 4 2; marker-end: url(#arrowhead-react); opacity: 0.7; }
+    .arrow-solid { fill: none; stroke: #76b3e2; stroke-width: 1.5; marker-end: url(#arrowhead-solid); opacity: 0.8; }
+  </style>
+
+  <!-- Title & Subtitle -->
+  <text x="30" y="40" class="title">React 19 vs. SolidJS Render Pipeline Comparison</text>
+  <text x="30" y="60" class="subtitle">Comparison of update propagation and DOM manipulation mechanisms</text>
+
+  <!-- COLUMN 1: REACT 19 -->
+  <g transform="translate(0, 30)">
+    <text x="220" y="80" class="header-react">REACT 19 (VDOM RECONCILIATION)</text>
+    
+    <!-- Step 1: State Trigger -->
+    <rect x="100" y="100" width="240" height="55" class="box-react" />
+    <text x="120" y="123" class="text-main">1. State Update Triggered</text>
+    <text x="120" y="138" class="text-sub">State mutation dispatches component update</text>
+
+    <!-- Arrow 1 -> 2 -->
+    <path d="M 220 155 L 220 183" class="arrow-react" />
+
+    <!-- Step 2: Component Run -->
+    <rect x="100" y="185" width="240" height="55" class="box-react" />
+    <text x="120" y="208" class="text-main">2. Component Function Executed</text>
+    <text x="120" y="223" class="text-sub">Function re-runs &amp; evaluates cache slots</text>
+
+    <!-- Arrow 2 -> 3 -->
+    <path d="M 220 240 L 220 268" class="arrow-react" />
+
+    <!-- Step 3: VDOM Build -->
+    <rect x="100" y="270" width="240" height="55" class="box-react" />
+    <text x="120" y="293" class="text-main">3. Rebuild Virtual DOM Tree</text>
+    <text x="120" y="308" class="text-sub">Allocates temporary VDOM node allocations</text>
+
+    <!-- Arrow 3 -> 4 -->
+    <path d="M 220 325 L 220 353" class="arrow-react" />
+
+    <!-- Step 4: Reconciliation -->
+    <rect x="100" y="355" width="240" height="55" class="box-react" />
+    <text x="120" y="378" class="text-main">4. Reconciliation &amp; Diffing</text>
+    <text x="120" y="393" class="text-sub">Fiber tree compares new VDOM vs. old VDOM</text>
+
+    <!-- Arrow 4 -> 5 -->
+    <path d="M 220 410 L 220 438" class="arrow-react" />
+
+    <!-- Step 5: DOM Commit -->
+    <rect x="100" y="440" width="240" height="55" class="box-react" />
+    <text x="120" y="463" class="text-main">5. Commit to DOM</text>
+    <text x="120" y="478" class="text-sub">Applies batched changes to the browser DOM</text>
+  </g>
+
+  <!-- COLUMN 2: SOLIDJS -->
+  <g transform="translate(0, 30)">
+    <text x="580" y="80" class="header-solid">SOLIDJS (FINE-GRAINED REACTIVITY)</text>
+    
+    <!-- Step 1: Signal Mutation -->
+    <rect x="460" y="100" width="240" height="55" class="box-solid" />
+    <text x="480" y="123" class="text-main">1. Signal Value Mutated</text>
+    <text x="480" y="138" class="text-sub">Direct trigger via signal setter function</text>
+
+    <!-- Arrow 1 -> 2 -->
+    <path d="M 580 155 L 580 268" class="arrow-solid" />
+
+    <!-- Step 2: Reactive Dependency Graph -->
+    <rect x="460" y="270" width="240" height="55" class="box-solid" />
+    <text x="480" y="293" class="text-main">2. Observer Tree Notification</text>
+    <text x="480" y="308" class="text-sub">Direct link propagates to specific observers</text>
+
+    <!-- Arrow 2 -> 3 -->
+    <path d="M 580 325 L 580 438" class="arrow-solid" />
+
+    <!-- Step 3: Direct DOM Update -->
+    <rect x="460" y="440" width="240" height="55" class="box-solid" />
+    <text x="480" y="463" class="text-main">3. Direct DOM Update</text>
+    <text x="480" y="478" class="text-sub">Mutates specific bound text nodes directly</text>
+  </g>
+</svg>
