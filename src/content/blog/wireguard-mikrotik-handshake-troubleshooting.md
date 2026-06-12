@@ -4,7 +4,7 @@ description: "A comprehensive guide on WireGuard MikroTik handshake troubleshoot
 pubDate: '2026-05-26'
 updatedDate: '2026-06-12'
 heroImage: '/wireguard.jpg'
-authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Server Administration & Networking. Alex specializes in designing secure, high-throughput network architectures and troubleshooting complex VPN deployments."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "All hardware and cloud infrastructure used in this testing were funded independently. No affiliate links influence this guide, and neither WireGuard nor MikroTik had editorial oversight."
 ---
 

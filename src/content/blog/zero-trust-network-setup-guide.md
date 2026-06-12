@@ -4,7 +4,7 @@ description: "A comprehensive zero trust network setup guide detailing our 6-mon
 pubDate: '2026-05-26'
 updatedDate: '2026-06-12'
 heroImage: '/zero-trust-network.jpg'
-authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Cybersecurity & Privacy. Holding CISSP and CISM certifications, Alex has architected secure remote infrastructures for Fortune 500 companies and regularly writes about modern security paradigms."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "We purchased all software and hardware mentioned in this guide with our own funds. No affiliate links influence this review, and no vendor had editorial oversight over this content."
 ---
 

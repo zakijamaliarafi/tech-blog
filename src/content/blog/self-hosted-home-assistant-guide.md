@@ -4,7 +4,7 @@ description: "A comprehensive self hosted Home Assistant guide for 2026. Learn h
 pubDate: '2026-05-26'
 updatedDate: '2026-06-12'
 heroImage: '/home-assistant.avif'
-authorBio: "Alex Vance is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Smart Home & IoT. Specializing in local-first architectures, Alex has deployed hundreds of automated environments ranging from small apartments to fully integrated smart estates."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "All hardware and servers tested in this guide were purchased with our own funds. No affiliate links influence this content, and no smart home manufacturers had editorial oversight over this guide."
 ---
 

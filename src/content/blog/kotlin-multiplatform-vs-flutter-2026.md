@@ -4,7 +4,7 @@ description: "An in-depth, hands-on architectural comparison of Kotlin Multiplat
 pubDate: '2026-05-31'
 updatedDate: '2026-06-12'
 heroImage: "/kotlin_flutter.png"
-authorBio: "Alex Morgan is a Senior Mobile Architect with over 10 years of experience building cross-platform and native applications. Currently leading mobile infrastructure at a Fortune 500 fintech company, Alex specializes in scaling high-performance mobile codebases."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "The research, devices, and cloud infrastructure used for this review were funded entirely by our own engineering budget. We hold no financial stakes in Google or JetBrains, and no affiliate links influence this review."
 ---
 

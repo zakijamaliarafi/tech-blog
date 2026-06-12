@@ -4,7 +4,7 @@ description: "A comprehensive case study on ZKTeco cloud integration using Pytho
 pubDate: '2026-05-26'
 updatedDate: '2026-06-12'
 heroImage: '/zkteco.jpg'
-authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in IoT & Hardware Integration. Alex specializes in bridging the gap between legacy industrial hardware and modern cloud architectures."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "All hardware utilized in this case study was purchased with our own funds for R&D purposes. No affiliate links influence this guide, and ZKTeco had no editorial oversight."
 ---
 

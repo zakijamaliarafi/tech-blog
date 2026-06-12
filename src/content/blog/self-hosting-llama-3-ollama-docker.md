@@ -4,7 +4,7 @@ description: "An expert, first-hand guide to self-hosting Llama 3 via Ollama and
 pubDate: '2026-05-26'
 updatedDate: '2026-06-12'
 heroImage: '/llama.png'
-authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Machine Learning Operations (MLOps) & Edge AI. Specializing in containerized workflows and localized hardware architectures, Alex helps enterprises transition inference workloads from public clouds to private, hybrid infrastructures."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "We purchased all consumer hardware used in this guide with our own funds. No affiliate links influence this review, and neither Meta nor Docker had editorial oversight."
 ---
 

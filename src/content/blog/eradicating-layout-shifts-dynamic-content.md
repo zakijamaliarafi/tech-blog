@@ -4,7 +4,7 @@ description: "An expert case study on how to optimize cumulative layout shift dy
 pubDate: '2026-05-26'
 updatedDate: '2026-06-12'
 heroImage: '/layout-shift.png'
-authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Frontend Performance & Core Web Vitals."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "The tools and strategies discussed were tested on our own internal infrastructure. No affiliate links or vendor sponsorships influence this technical guide."
 ---
 

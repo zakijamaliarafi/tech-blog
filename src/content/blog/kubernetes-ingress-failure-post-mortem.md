@@ -4,7 +4,7 @@ description: "A real-world Kubernetes ingress failure post mortem detailing the 
 pubDate: '2026-05-28'
 updatedDate: '2026-06-12'
 heroImage: '/kubernetes.png'
-authorBio: "Alex Mercer is a Senior Platform Engineer with over 10 years of experience in distributed systems and Kubernetes infrastructure. Holding CKA, CKAD, and CKS certifications, Alex specializes in highly available cloud-native architectures and incident response."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "This article contains a real-world Kubernetes ingress failure post mortem based on a production incident. All tools discussed are open-source or were purchased with our own funds. No affiliate links influence the technical details or opinions expressed below."
 ---
 

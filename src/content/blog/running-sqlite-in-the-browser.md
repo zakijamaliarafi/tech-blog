@@ -4,7 +4,7 @@ description: "An in-depth exploration of running SQLite in the browser using Web
 pubDate: "2026-05-30"
 updatedDate: '2026-06-12'
 heroImage: "/webassembly.png"
-authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert in Edge Computing. With over 10 years of experience designing distributed systems and pushing the boundaries of web technologies, Alex currently works as a Principal Edge Architect. He specializes in Wasm, local-first architectures, and modern web performance optimization."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "This research and implementation were conducted independently. We purchased all hardware used for testing with our own funds, and no affiliate links or sponsorships influence this technical review."
 ---
 

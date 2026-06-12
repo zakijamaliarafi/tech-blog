@@ -4,7 +4,7 @@ description: "A deep dive into the best ergonomic mouse for programmers in 2026,
 pubDate: '2026-05-26'
 updatedDate: '2026-06-12'
 heroImage: '/ergo-mouse.jpg'
-authorBio: "Jordan Harris is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Consumer Electronics & Productivity Gear. After a career in full-stack software development, Jordan transitioned to reviewing the intersection of developer productivity and hardware ergonomics."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "All mice tested in this review were purchased with our own funds. No affiliate links influence this review, and no peripheral manufacturers had editorial oversight over this content."
 ---
 

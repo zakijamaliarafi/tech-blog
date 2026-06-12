@@ -4,7 +4,7 @@ description: "An in-depth developer guide to connecting ZKTeco C3/InBio access c
 pubDate: "May 26 2026"
 updatedDate: '2026-06-12'
 heroImage: "/zkteco.webp"
-authorBio: "Jane Doe is a Senior Technology Journalist and Systems Engineer with 10+ years of experience in IoT, enterprise access control, and distributed architectures."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "All hardware tested in this article, including the ZKTeco C3-100 panels, was purchased with our own funds. No affiliate links influence our technical review."
 ---
 

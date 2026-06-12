@@ -4,7 +4,7 @@ description: "An in-depth, hands-on comparison of React 19 vs SolidJS performanc
 pubDate: '2026-05-26'
 updatedDate: '2026-06-12'
 heroImage: '/solidjs-react.webp'
-authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Web Development. Having architected front-end applications for major SaaS platforms, Alex specializes in web performance and next-generation frameworks."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "We developed these benchmarks using our own infrastructure and funds. No affiliate links influence this review, and neither Meta nor the SolidJS core team had editorial oversight over this content."
 ---
 

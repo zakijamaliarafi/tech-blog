@@ -4,7 +4,7 @@ description: "A comprehensive, production-grade guide to implementing secure mac
 pubDate: '2026-05-26'
 updatedDate: '2026-06-12'
 heroImage: '/sanctum.jpg'
-authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in API Design & Microservices Security. Alex specializes in designing robust, scalable authentication architectures for distributed systems."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "The testing and benchmarking detailed in this guide were conducted on my own infrastructure. I have not received any compensation from Laravel or associated vendors, ensuring this review remains completely objective."
 ---
 

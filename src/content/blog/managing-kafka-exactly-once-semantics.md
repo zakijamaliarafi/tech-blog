@@ -4,7 +4,7 @@ description: "A deep dive into Kafka exactly once semantics architecture, detail
 pubDate: '2026-05-29'
 updatedDate: '2026-06-12'
 heroImage: "/kafka.webp"
-authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience covering the distributed systems and data engineering space. Formerly a Principal Architect at a top FinTech firm, Alex has deep expertise in Apache Kafka, database internals, and high-throughput transaction processing systems."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "All hardware and cloud infrastructure used for this evaluation were provisioned through our team's standard operational budget. We have no affiliation with Confluent, and no affiliate links influence this review."
 ---
 

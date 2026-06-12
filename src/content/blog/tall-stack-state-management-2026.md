@@ -4,7 +4,7 @@ description: "A comprehensive developer guide detailing advanced state managemen
 pubDate: '2026-05-26'
 updatedDate: '2026-06-12'
 heroImage: '/tall-stack.jpg'
-authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Full-Stack Web Development (TALL Stack). Alex specializes in architecting scalable backend systems and high-performance frontends."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "This review and case study are based on our internal production deployments. No affiliate links influence this content, and none of the framework creators had editorial oversight."
 ---
 

@@ -4,7 +4,7 @@ description: "An authoritative performance and memory comparison of rewriting a 
 pubDate: '2026-05-27'
 updatedDate: '2026-06-12'
 heroImage: '/rust_nodejs.jpeg'
-authorBio: "Alex Mercer is a Senior Systems Engineer with over 10 years of experience in Systems Programming & Performance, specializing in high-throughput distributed systems. Currently leading the backend infrastructure team at TechFlow Inc."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "The infrastructure and load-testing tools mentioned in this article were provisioned using our internal engineering budget. No sponsorships or affiliate links influence this review. Our findings are based purely on our internal production workloads."
 ---
 

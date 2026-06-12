@@ -4,7 +4,7 @@ description: "An in-depth, production-grade guide on safe logic level shifting t
 pubDate: '2026-05-26'
 updatedDate: '2026-06-12'
 heroImage: '/level-shifting.png'
-authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Hardware Engineering & Prototyping. Alex specializes in embedded systems, microcontroller integrations, and rapid hardware prototyping."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "All hardware components discussed in this guide were purchased with our own funds. No affiliate links influence this review, and we maintain full editorial independence."
 ---
 

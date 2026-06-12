@@ -4,7 +4,7 @@ title: "Scaling Redis for High-Throughput Message Broking: What We Learned at 50
 description: "A deep dive into our methodology, architectural decisions, and performance tuning for achieving massive scale redis message broker performance."
 pubDate: 2026-05-26
 updatedDate: '2026-06-12'
-authorBio: "Alex Mercer is a Senior Database Engineer specializing in distributed systems, high-availability data architectures, and performance tuning. With over a decade of experience navigating the complexities of high-scale cloud infrastructure, Alex focuses on wringing every drop of performance out of open-source data stores."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "This deep-dive is based entirely on our internal engineering team's first-hand experience. All infrastructure costs were covered by our own R&D budget, and no external vendors or affiliate links influence this review."
 ---
 

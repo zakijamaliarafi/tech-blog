@@ -4,7 +4,7 @@ description: "A comprehensive deep dive into building scalable event-driven arch
 pubDate: '2026-05-26'
 updatedDate: '2026-06-12'
 heroImage: '/reverb.png'
-authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Backend Web Development & Real-Time Architecture. Alex specializes in designing high-throughput distributed systems and evaluating cutting-edge frameworks for enterprise deployment."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "All hardware and cloud infrastructure used in this testing were funded independently. No affiliate links influence this guide, and neither Laravel nor Redis Labs had editorial oversight."
 ---
 

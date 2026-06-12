@@ -4,7 +4,7 @@ description: "A comprehensive deep-dive into building, training, and benchmarkin
 pubDate: "May 26 2026"
 updatedDate: '2026-06-12'
 heroImage: "/Route-Optimization.jpg"
-authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with 10+ years of experience in Algorithm Design, Route Optimization, and Machine Learning. He has architected logistics engines for national delivery networks."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "All cloud compute instances, APIs, and datasets used in this benchmark were purchased or provisioned with our own funds. No affiliate links influence this technical review."
 ---
 

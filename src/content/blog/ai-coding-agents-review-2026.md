@@ -4,7 +4,7 @@ description: "A deep dive into our experience evaluating the best AI coding agen
 pubDate: '2026-05-26'
 updatedDate: '2026-06-12'
 heroImage: '/ai-coding-agents-hero.jpg'
-authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience covering Artificial Intelligence and Developer Tools. Formerly a Principal Software Engineer, Alex holds certifications in Cloud Architecture and Applied AI, and specializes in evaluating deep-tech developer workflows for enterprise scaling."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "We purchased all subscriptions to GitHub Copilot and Cursor with our own funds. No affiliate links or sponsorships influence this review, and neither GitHub nor Anysphere (Cursor's parent company) had editorial oversight over this content."
 ---
 

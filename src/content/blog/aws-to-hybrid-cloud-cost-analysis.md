@@ -4,7 +4,7 @@ description: "A comprehensive, hands-on hybrid cloud cost analysis for 2026, det
 pubDate: '2026-05-26'
 updatedDate: '2026-06-12'
 heroImage: '/hybrid-cloud.png'
-authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Cloud Computing & Infrastructure. Having architected large-scale migrations for enterprise SaaS platforms, Alex specializes in cloud economics and hybrid infrastructure."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "We funded this migration and subsequent hybrid cloud cost analysis using our own infrastructure budget. No affiliate links influence this review, and no cloud providers had editorial oversight over this content."
 ---
 

@@ -4,7 +4,7 @@ description: "A comprehensive case study on building an event-driven point-of-sa
 pubDate: '2026-05-26'
 updatedDate: '2026-06-12'
 heroImage: '/event-driven.jpg'
-authorBio: "Alex Mercer is a Senior Technology Journalist and Subject Matter Expert with over 10 years of experience in Full-Stack PHP & Real-Time Architecture. Alex specializes in designing scalable, event-driven systems that power high-throughput applications."
+authorBio: "Alex Mercer is a senior technology journalist and subject matter expert with over 10 years of experience covering AI coding agents, cloud architecture, devops, hardware prototyping, performance optimization, distributed systems, and emerging technologies. He specializes in deep technical analysis, benchmarking, and translating complex engineering concepts into actionable insights."
 transparencyNote: "This case study is based on a real-world project funded independently. We utilized open-source tools, and no affiliate links influence this architectural review."
 ---
 
